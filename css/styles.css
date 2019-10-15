@@ -46,11 +46,18 @@ footer a{
     text-decoration: none;
 }
 
+
+
+/***********
+aboutUs
+************/
+
+
 /***********
 footer
 ************/
 
-footer {
+.site-footer {
     background-color: var(--maingGreen);
     padding: 20px 0;
 }
