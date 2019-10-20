@@ -51,7 +51,15 @@ footer a{
 /***********
 aboutUs
 ************/
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
 
+.nav-link{
+    color: black;
+}
 
 /***********
 footer
