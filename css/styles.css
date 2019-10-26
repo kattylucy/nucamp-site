@@ -1,8 +1,6 @@
 :root{
     --maingGreen : rgb(59, 158, 64);
-    --secondaryGreen: rgb(9, 66, 12);
-
-    
+    --secondaryGreen: rgb(9, 66, 12);   
 }
 
 
@@ -44,6 +42,14 @@ footer a{
 .nav-link{
     color: white;
     text-decoration: none;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid gray;
 }
 
 
