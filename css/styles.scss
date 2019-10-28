@@ -1,39 +1,51 @@
 body {
-  font-family: "Questrial", sans-serif; }
+  font-family: "Questrial", sans-serif;
+}
+
+$mainGreen: rgb(59, 158, 64);
+$secondaryGreen: rgb(9, 66, 12);   
 
 /***********
 index html style
 ************/
 header h1 {
-  color: black; }
+  color: black;
+}
 
 footer a {
   text-decoration: none;
-  color: white; }
+  color: white;
+}
 
 .jumbotron {
   padding: 30px;
-  background-color: #3b9e40;
+  background-color: $mainGreen;
   color: white;
-  margin: 0; }
+  margin: 0;
+}
 
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
-  min-height: 200px; }
+  min-height: 200px;
+}
 
 .navbar {
-  background-color: #09420c; }
+  background-color: $secondaryGreen;
+}
 
 .nav-link {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .carousel {
-  border: solid gray; }
+  border: solid gray;
+}
 
 /***********
 aboutUs
@@ -42,12 +54,14 @@ aboutUs
 footer
 ************/
 .site-footer {
-  background-color: #3b9e40;
-  padding: 20px 0; }
+  background-color: $mainGreen;
+  padding: 20px 0;
+}
 
 #carouselButton {
   position: absolute;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+}
 
 /*# sourceMappingURL=styles.scss.map */

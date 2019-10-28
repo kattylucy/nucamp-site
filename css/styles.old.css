@@ -1,0 +1,76 @@
+:root{
+    --maingGreen : rgb(59, 158, 64);
+    --secondaryGreen: rgb(9, 66, 12);   
+}
+
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+/***********
+index html style
+************/
+
+header h1{
+    color: black;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-color: var(--maingGreen);
+    color: white;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar{
+    background-color: var(--secondaryGreen);
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid gray;
+}
+
+
+
+/***********
+aboutUs
+************/
+
+
+/***********
+footer
+************/
+
+.site-footer {
+    background-color: var(--maingGreen);
+    padding: 20px 0;
+}
+
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
