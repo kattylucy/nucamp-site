@@ -1,8 +1,11 @@
+
+$color-teal: #17A2B8;
+
 body {
   font-family: "Questrial", sans-serif;
 }
 
-$mainGreen: rgb(59, 158, 64);
+$mainGreen: rgb(2, 63, 53);
 $secondaryGreen: rgb(9, 66, 12);   
 
 /***********
@@ -62,6 +65,27 @@ footer
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+
+#reserveModal {
+
+  .modal-header{
+    background-color: $color-teal;
+
+      .modal-title{
+        color: white;
+      }
+  }
+}
+
+#loginModal{
+  .modal-header{
+    background-color: purple;
+    .modal-title{
+      color: white;
+    }
+  }
 }
 
 /*# sourceMappingURL=styles.scss.map */
